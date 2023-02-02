@@ -36,11 +36,18 @@
     color: #f8f8f8;
     font-size: 15px;
 }
+.navmenu ul li a:hover{
+    background-color: #181818;
+    border: 1px solid #f8f8f8;
+    box-shadow: #a460f9 5px 5px;
+    padding: 5px;
+}
 .hero
 {
     display: flex;
     height: 100vh;
     justify-content: space-between;
+    overflow: hidden;
 }
 .item1{
         color: #f8f8f8;
@@ -75,4 +82,92 @@
 }
 .item3 p{
     color: #f8f8f8a7;
+}
+.item3 button{
+    padding: 10px;
+    background-color: #a460f9;
+    border: none;
+    color: #f8f8f8;
+    font-family: 'krub',sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.item3 button:hover{
+    background-color: #181818;
+    border: 1px solid #f8f8f8;
+    box-shadow: #a460f9 5px 5px;
+}
+.pcard{
+    width: 100%;
+    height: 150px;
+    background-color: #181818;
+    position: relative;
+    box-shadow: 0px 0px 20px 20px #15151586;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+}
+.pcard:hover{
+    box-shadow: 10px 10px #a460f9;
+    border: 1px solid #f8f8f8;
+}
+.pcard div h1{
+    color: #f8f8f8;
+    text-align: center;
+    font-family: 'oswald', sans-serif;
+    font-weight: 400;
+    margin-right: 10%;
+    font-size: 50px;
+}
+.pcard div h1::first-letter{
+    color: #a460f9;
+}
+.pdiv1{
+    display: inline-flex;
+    align-items: center;
+}
+.pdiv1 div{
+    color: #f8f8f8;
+    font-family: 'krub',sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.pdiv1 div::first-line{
+font-weight: 400;
+}
+.fh{
+    margin:10% 0%;
+    text-align: center;
+    font-size: 50px;
+    color: #f8f8f8;
+    font-family: 'krub',sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+.fh2{
+    font-family: 'krub',sans-serif;
+}
+.fh1{
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.cer{
+    width: 50%;
+    height:20vh;
+    background-color: transparent;
+    border: 1px solid #f8f8f8;
+    box-shadow: 10px 10px #a460f9 ;
+    border-radius: 50%;
+    position: absolute;
+    transform: rotate(20deg);
+    z-index: -1;
 }
