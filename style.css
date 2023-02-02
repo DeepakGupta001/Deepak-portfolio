@@ -39,8 +39,13 @@
 .navmenu ul li a:hover{
     background-color: #181818;
     border: 1px solid #f8f8f8;
-    box-shadow: #a460f9 5px 5px;
+    box-shadow: #c494ff 5px 5px;
     padding: 5px;
+}
+.logo{
+    text-align: center;
+    text-shadow: 3px 3.5px #a460f9;
+    lighting-color: #a460f9;   
 }
 .hero
 {
